@@ -8,9 +8,9 @@ URL: http://localhost:8080/api/adapter/extrair-metadados
 
 ## Example of Request:
 ```
-curl POST 'http://localhost:8080/api/adapter/extrair-metadados' \
+curl -X POST 'http://localhost:8080/api/adapter/extrair-metadados' \
   --header 'Content-Type: application/json' \
-  --body '{
+  --data '{
     "customer": "Pedro", 
     "amount": 100.0, 
     "client_category": "VIP",
